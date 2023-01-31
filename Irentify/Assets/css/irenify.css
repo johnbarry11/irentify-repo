@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    
 }
 nav {
     display: flex;
@@ -34,6 +35,5 @@ nav ul li a {
     color: black;
 }
 .moodboard{
-    background-image: url("firefigher.png");
-    width: 100%;
+    background-image: url("firefighter.png");
 }
