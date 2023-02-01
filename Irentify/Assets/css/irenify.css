@@ -40,13 +40,14 @@ nav ul li a {
 }
 #board {
     background-color: white;
-    width: 60%;
-    height: 56%;
+    width: 50%;
+    height: 54%;
     position: relative;
-    bottom: -273px;
+    bottom: -258px;
     left: 87px;
-    padding: 30px 30px;
-    display: list-item
+    list-style-type: none;
+    padding: 25px 50px;
+    display: list-item;
 }
 h1 {
     font-size: 40px;
@@ -66,6 +67,44 @@ p {
     margin-top: 0px;
     font-family: inter;
 }
+#board li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: inter;
+}
 li img {
     width: 21px;
+    margin-right: 6px;
 }
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 35px;
+    background-color: #002639;
+}
+.gridbox {
+    text-align: left;
+    color: white;
+    background-color: #002639;
+}
+h3 {
+    font-size: 18px;
+    font-family: teko;
+    font-weight: 600;
+}
+.gridbox p {
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: left;
+}
+.gidbox {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+  }
