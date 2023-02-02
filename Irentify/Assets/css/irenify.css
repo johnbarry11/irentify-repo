@@ -1,7 +1,7 @@
 body {
-    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
     padding: 0px;
-    
 }
 nav {
     display: flex;
@@ -41,12 +41,12 @@ nav ul li a {
 #board {
     background-color: white;
     width: 50%;
-    height: 54%;
+    height: 244px;
     position: relative;
-    bottom: -258px;
+    bottom: -376px;
     left: 87px;
     list-style-type: none;
-    padding: 25px 50px;
+    padding: 25px 32px;
     display: list-item;
 }
 h1 {
@@ -61,11 +61,10 @@ h2 {
     font-weight: 700;
     margin-top: 8px;
 }
-p {
-    font-size: 15px;
-    font-weight: 500;
-    margin-top: 0px;
-    font-family: inter;
+#board ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
 }
 #board li {
     list-style-type: none;
@@ -84,6 +83,7 @@ li img {
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 10px;
+    margin-right: 0px;
     padding: 35px;
     background-color: #002639;
 }
@@ -99,12 +99,49 @@ h3 {
 }
 .gridbox p {
     font-family: Inter;
-    font-size: 11px;
-    font-weight: 400;
+    font-size: 13px;
+    font-weight: 500;
     text-align: left;
 }
-.gidbox {
-    column-count: 3;
-    column-gap: 40px;
-    column-rule-style: solid;
-  }
+#ads {
+    width: 100%;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#bi {
+    font-family: Teko;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+#ads p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+#box img {
+    width: 100%;
+}
+#inf img {
+    width: 100%;
+}
+#sez{
+    background: #DDDDDD;
+    height: 210px;
+}
+#flexbox{
+  display: flex;
+  flex-direction: column;
+}
+#sez p{
+    display: flex;
+    justify-content: center;
+    padding: 50px 30px;
+    font-family: Teko;
+    font-size: 20px;
+    font-weight: 600;
+}
