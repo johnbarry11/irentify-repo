@@ -126,52 +126,125 @@ h3 {
 #box img {
     width: 100%;
 }
-#inf img {
-    width: 100%;
-}
+
 #sez{
     background: #DDDDDD;
     height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
 }
 #flexbox{
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 42px;
+}
+header {
+    font-family: Teko;
+    font-size: 48px;
+    font-weight: 600;
+    position: relative;
+    top: 127px;
+    left: 80px;
 }
 #sez p{
     display: flex;
     justify-content: center;
-    padding: 50px 30px;
     font-family: Teko;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 600;
 }
 .flex-container {
     display: flex;
     flex-direction: column;
-}  
+    align-items: center;
+    margin-top: 205px
+}
 .flexitem {
     background: #002639;
     margin: 10px;
     display: flex;
+    width: 85%;
     flex-direction: row-reverse;
     padding: 60px 47px;
+    justify-content: space-between;
 }
 .flexitem img{
     width: 43%;
-    margin-right: -11px;
 }
-#info {
-    margin-right: auto;
+.info {
+    margin-right: 0px;
     color: white;
 }
-#info p{
+.info p{
     font-family: Inter;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
+    line-height: 1.6;
 }
-#bi {
+.bi {
     font-family: Teko;
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 0px;
+}
+.flexitem1 {
+    background: #002639;
+    margin: 10px;
+    display: flex;
+    width: 85%;
+    flex-direction: row;
+    padding: 60px 47px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.flexitem1 img {
+    width: 43%;
+}
+.inf {
+    color: white;
+}
+.inf p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.button {
+    background-color: #00A5F7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    font-family: inter;
+    cursor: pointer;
+    font-weight: 500;
+  }
+.flexitem2 {
+    background: #002639;
+    margin: 10px;
+    display: flex;
+    width: 85%;
+    padding: 20px 47px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.flexitem2 img {
+    width: 43%;
+    height: 321px;
+    object-fit: contain;
+}
+.bug {
+    color: white;
+}
+.bug p {
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.6;
 }
