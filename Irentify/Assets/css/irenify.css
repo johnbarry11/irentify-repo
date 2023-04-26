@@ -12,7 +12,7 @@ nav {
     justify-content: space-around;
     height: 50%;
     margin-right: 0px;
-    width: 97%;
+    
     padding: 7px;
     margin-bottom: 15px;
 }
@@ -26,7 +26,6 @@ nav {
 }
 nav ul {
     display: flex;
-
 }
 nav ul li {
     list-style-type: none;
@@ -64,6 +63,7 @@ h1 {
     font-family: teko;
     font-weight: 700;
     margin-bottom: -28px;
+    color: black;
 }
 h2 {
     font-size: 40px;
@@ -544,7 +544,8 @@ footer {
     height: auto;
     margin-left: 3px;
     margin-top: 20px;
-    padding-bottom: 2px;
+    padding-bottom: 3px;
+    padding-left: 10px;
 }
 .smallbox3 {
     letter-spacing: 20px;
@@ -612,7 +613,7 @@ body {
 }
 }
 @media screen  and (min-width:992px) {
-    .navbar.bg-light.fixed-top{
+    .navbar.bg-light{
        display: none;
     }
 }
