@@ -3,47 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Irentify</title>
     <link rel="stylesheet" href="Assets/css/irenify.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
 </head>
 <body>
     <nav>
         <div id="logo">
-        <a href=""><img src="assets/pictures/logo 3.png" alt="logo"></a></div>
+        <a href="file:///C:/Users/John%20Barry/Documents/GitHub/irentify-repo/Irentify/irenify.html"><img src="Assets/pictures/logo 3.png" alt="logo"></a>
+    </div>
          <ul>
             <li><a href="">HOME</a></li> 
             <li><a href="">ABOUT</a></li>
             <li><a href="">SERVICES</a></li>
             <li id="blue"><a href="">GET IN TOUCH</a></li>
          </ul>
-        </div>
     </nav>
-    <nav class="navbar bg-light">
+    <nav class="navbar bg-light fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="Assets/pictures/logo 3.png" alt=""></a>
+          <a class="navbar-brand" href="#">Offcanvas navbar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="Assets/pictures/logo 3.png"></h5>
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">ABOUT</a>
+                  <a class="nav-link" href="#">Link</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">SERVICES</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">GET IN TOUCH</a>
-                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
             </div>
           </div>
         </div>
@@ -65,22 +79,22 @@
         <div class="gridbox">
             <img src="Assets/pictures/Vector.png">
             <h3><a href="">ROV SERVICES</a></h3>
-            <p>Advanced underwater <br>inspection, maintenance,<br> and repair with remotely <br>operated vehicles (ROVs).</p>
+            <p>Advanced underwater inspection, maintenance, and repair with remotely operated vehicles (ROVs).</p>
         </div>
          <div class="gridbox">
             <img src="assets/pictures/Vector (1).png">
             <h3><a href="">SURVEY SERVICES</a></h3>
-            <p>Accurate and reliable data <br>collection for construction,<br> oil and gas, and maritime <br> industries.</p> 
+            <p>Accurate and reliable data collection for construction, oil and gas, and maritime industries.</p> 
         </div>
         <div class="gridbox">
             <img src="assets/pictures/Group 5.png">
             <h3><a href="">GEOTECHNICAL SERVICES</a></h3>
-            <p>Comprehensive <br> geotechnical services,<br> including soil and rock <br> testing, borehole drilling,<br> and site assessments.</p>
+            <p>Comprehensive geotechnical services, including soil and rock testing, borehole drilling, and site assessments.</p>
         </div>
         <div class="gridbox">
             <img src="assets/pictures/Vector (2).png">
             <h3><a href="">OFFSHORE PERSONNEL SERVICES</a></h3>
-            <p>Skilled and experienced <br> personnel for offshore <br> projects, including oil and <br> gas, wind energy, and <br> marine construction.</p>
+            <p>Skilled and experienced personnel for offshore projects, including oil and gas, wind energy, and marine construction.</p>
             </div>
         </div>
         <div id="flexbox">
@@ -91,86 +105,7 @@
             service provision, equipment rental and personnel support services.</p>
         </div>
         </div>
-        <header>SERVICES</Header>
-    <div class="flex-container">
-    <div class="flexitem">
-        <img src="assets/pictures/Frjfre0OpIysMDZKFFqZNQAE6yIny1mzvjeO4k5o 1.png" alt="generator">
-    <div class="info">
-        <h2 class="bi">ROV SERVICES</h2>
-        <p>Our collaborative approach and tailored solutions ensure the right size of asset, best suited for the task, with the highest performance, reliability, and uptime. From confined spaces such as internal tank inspections to subsea survey, inspection, and interventions.</p>
-        <p>Our data deliverables include but not limited to; CP, UT, Imaging Sonars, Jetting/Cleaning, MBES if required and any other required packages. Irentify strength is our attention to detail, proper pre-project planning that’s guarantees our understanding of client requirement before field operation, maximising the time available.</p>
-        <p> Our data quality management system put in place ensures that every project we deliver benefits from the newest processes available. It also ensures that we are fully in control of the data delivered, without the need for external parties. We are able to mobilise mini ROVs, Inspections ROV and intervention ROVs at a short notice anywhere in Nigeria, also armed with the collaboration agreement with our partners we are able to mobilise to any were in West Africa.</p>
-    </div>
-    </div>
-    <div class="flexitem1">
-        <img src="assets/pictures/rainbow.png" alt="soil">
-    <div class="inf">
-        <h2 class="bi">SURVEY SERVICES</h2>
-        <p>Combining state-of-the-art technology with a wide team of experts, at Irentify we are leading the way with hydrographic, geophysical, site survey and positioning services across the offshore sector. Helping clients to make informed decisions and de-risk their projects.</p>
-        <p>Our deliverables are fast response times, quick mobilisation and economical solutions tailored to meet client specific need.</p>
-        <p>With a large pool of in-house team, we manage the entire end-to-end survey process from initial project planning, through to data collection and reporting. At Irentify we are leveraging cutting-edge innovation, experience personnel in other to build client confidence and trust.</p>
-    </div>
-    </div>
-    <div class="flexitem">
-        <img src="assets/pictures/crane.png" alt="crane">
-    <div class="info">
-        <h2 class="bi">GEOTECHNICAL SERVICES</h2>
-        <p>Irentify offers offshore, nearshore, and inland marine geotechnical survey services using a suite of innovative tools for soil sampling and measurement.We have developed a suite of geotechnical analytical services for characterizing geotechnical samples.</p>
-        <p>Our suite of innovative geotechnical tools are for soil sampling and measurement and including drilling rigs, box corers (BC), piston corers (PC), gravity corers (GC), jumbo piston corers (JPC), cyclic t-bar instrument (TBAR), deep-reaching Shelby tube samplers (SPLR), and piezocone penetrometers including our CPT-Stinger and our Gravity CPT tool (gCPT). </p>
-        <p>Our vessels can also be used to accommodate some third party geotechnical equipment packages. In addition to our offshore geotechnical sampling tool-kits, TDI-Brooks can provide s</p>
-    </div>
-    </div>
-    <div class="flexitem1">
-        <img src="Assets/pictures/workers.png" alt="men working">
-        <div class="inf">
-        <h2 class="bi">OFFSHORE PERSONNEL SERVICES</h2>
-        <p> OFFSHORE PERSONNEL Our services can be complemented with highly skilled offshore personnel who are able to attend vessel mobilisations and support our customer’s offshore operations.</p>
-        <p>Our offshore personnel are qualified in relevant survey, engineering disciplines and certified for offshore deployment.</p>
-        <p>Our areas of expertise include: </p>
-        <li>Geophysical Survey</li>
-        <li>Positioning</li>
-        <li>Environmental Monitoring</li>
-        <li>Geotechnical Services</li>
-        <li>ROV Inspections</li>
-        <li>Vessel Mobilisation</li>
-    </div>
-    </div>
-    <div class="flexitem2">
-        <img src="Assets/pictures/manatwork.png" alt="man at work">
-    <div class="bug">
-        <h2 class="bi">EMPOWER YOUR SUCCESS WITH IRENTIFY</h2>
-        <p>At Irentify, we're more than just an equipment rental company - we're a partner in your success. So why wait? Join us today and start taking advantage of all that Irentify has to offer.</p>
-        <a href="" class="button">GET IN TOUCH</a>
-    </div>
-    </div>
-    </div>
-    <footer>
-        <div class="smallbox1">
-            <img src="Assets/pictures/logo 3.png" alt="irentify logo">
-        </div>
-        <div class="smallbox2">
-            <p>Contact Us</p>
-        <div class="pat">
-            <img src="Assets/pictures/location.svg">
-            <p> 1 Ahoada Road Rumuibekwe Port <br> Harcourt, Rivers State Nigeria</p>
-        </div>
-        <div class="pat">
-            <img src="Assets/pictures/phone.svg">
-            <p>+2347068641347</p>
-        </div>
-        <div class="pat">
-            <img src="Assets/pictures/email.svg">
-            <p>info@irentify.net</p>
-        </div>
-        </div>
-        <div class="smallbox3">
-            <a href=""><img src="Assets/pictures/linkedin.svg" alt="linkedin"></a>
-            <a href=""><img src="Assets/pictures/instagram.svg" alt="Instagram"></a>
-            <a href=""><img src="Assets/pictures/facebook.svg" alt="facebook"></a>
-        </div>
-        </footer>
-        <div id="color"> <p>© 2018 - 2023 Irentify. All Rights Reserved</p> </div>
-        <script src=""></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 </body>  
 </html>

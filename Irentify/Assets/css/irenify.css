@@ -58,19 +58,6 @@ nav ul li a:hover{
     position: relative;
     bottom: -356px;
 }
-h1 {
-    font-size: 40px;
-    font-family: teko;
-    font-weight: 700;
-    margin-bottom: -28px;
-    color: black;
-}
-h2 {
-    font-size: 40px;
-    font-family: teko;
-    font-weight: 700;
-    margin-bottom: 5px;
-}
 #blue a {
     text-decoration: none;
     color: #00A5F7;
@@ -86,13 +73,26 @@ h2 {
     align-items: center;
     justify-content: flex-start;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     margin-right: 20px;
     font-family: inter;
 }
 li img {
     width: 21px;
     margin-right: 6px;
+}
+#board h1 {
+    font-size: 45px;
+    font-family: teko;
+    font-weight: 700;
+    margin-bottom: -28px;
+    color: black;
+}
+#board h2 {
+    font-size: 41px;
+    font-family: teko;
+    font-weight: 700;
+    margin-bottom: 5px;
 }
 #grid-container {
     display: flex;
@@ -107,17 +107,10 @@ li img {
     color: white;
     background-color: #002639;
 }
-h3 {
+.gridbox h3 {
     font-size: 18px;
     font-family: teko;
     font-weight: 600;
-}
-h3 a {
-    text-decoration: none;
-    color: white;
-}
-h3 a:hover {
-    color: aqua;
 }
 .gridbox p {
     font-family: Inter;
@@ -125,29 +118,17 @@ h3 a:hover {
     font-weight: 500;
     text-align: left;
 }
-#ads {
-    width: 100%;
-    height: 360px;
+.gridbox h3 a {
+    text-decoration: none;
+    color: white;
+}
+.gridbox h3 a:hover {
+    color: aqua;
+}
+#flexbox{
     display: flex;
-    margin-left: -236px;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-#bi {
-    font-family: Teko;
-    font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 0px;
-}
-#ads p {
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 500;
-    text-align: left;
-}
-#box img {
-    width: 100%;
+    margin-bottom: 155px;
 }
 #sez{
     background: #DDDDDD;
@@ -156,175 +137,10 @@ h3 a:hover {
     align-items: center;
     justify-content: space-around
 }
-#flexbox{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 155px;
-}
-header {
-    font-family: Teko;
-    font-size: 48px;
-    font-weight: 600;
-    margin-left: 119px;
-}
-#sez p{
-    display: flex;
-    justify-content: center;
-    font-family: Teko;
-    font-size: 23px;
-    font-weight: 600;
-    margin-left: -407px;
-}
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 60px;
-}
-.flexitem {
-    background: #002639;
-    margin: 10px;
-    display: flex;
-    width: 90%;
-    flex-direction: row-reverse;
-    padding: 60px 47px;
-    justify-content: space-around;
-}
-.flexitem img{
-    height: auto;
-    width: 50%;
-}
-.info {
-    margin-right: 0px;
-    color: white;
-}
-.info p{
-    font-family: Inter;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 1.6;
-}
-.bi {
-    font-family: Teko;
-    font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 0px;
-}
-.flexitem1 {
-    background: #002639;
-    margin: 10px;
-    display: flex;
-    width: 90%;
-    flex-direction: row;
-    padding: 60px 47px;
-    justify-content: space-around;
-    align-items: flex-start;
-}
-.flexitem1 img {
-    width: 50%;
-    height: auto;
-}
-.inf {
-    color: white;
-    padding: 5px;
-}
-.inf p {
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.5;
-}
-.button {
-    background-color: #00A5F7;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    margin: 4px 2px;
-    font-family: inter;
-    cursor: pointer;
-    font-weight: 500;
-  }
-.flexitem2 {
-    background: #002639;
-    margin: 10px;
-    display: flex;
-    width: 90%;
-    padding: 20px 47px;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row-reverse;
-}
-.flexitem2 img {
-    width: 50%;
-    height: 321px;
-    object-fit: contain;
-}
-.bug {
-    color: white;
-    padding: 7px;
-}
-.bug p {
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 1.6;
-}
-footer {
-    width: 100%;
-    height: 255px;
-    display: flex;
-    padding: 0px 0px 20px;
-    margin-top: 105px;
-    background-color: #cbc4c494;
-    justify-content: space-around;
-    align-items: center;  
-}
-.smallbox2 {
-    margin-top: 132px;
-    display: flex;
-    flex-direction: column;
-}
-.smallbox2 p {
-    font-size: 18px;
-    font-weight: 600;
-    font-family: inter;
-    color: #002639;
-}
-.smallbox3 {
-    letter-spacing: 20px;
-}
-.pat{
-    display: flex;
-    align-items: center;
-}
-.pat p {
-    margin-left: 10px;
-    color: #002639;
-    font-size: 15px;
-    font-weight: 400;
-    font-family: inter;
-    margin-bottom: 8px;
-}
-#color {
-    background-color: #cbc4c494;
-    height: 78px;
-    margin-top: 0px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-#color p {
-    color: #002639;
-    font-size: 15px;
-    font-weight: 400;
-    font-family: inter;
-}
 @media screen and (max-width: 1115px) {
+    .navbar.bg-light {
+        display: none;
+    }
 #sez p {
     display: flex;
     justify-content: center;
@@ -390,7 +206,7 @@ footer {
 }
 .info p {
     font-family: Inter;
-    font-size: 19px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.6;
 }
@@ -433,7 +249,7 @@ inf li {
     nav ul {
     display: none;
     }
-    #board {
+#board {
     background-color: white;
     width: 100%;
     height: 188px;
@@ -444,22 +260,25 @@ inf li {
     position: relative;
     bottom: -238px;
     }
-    #board ul {
-        display: block;
-        padding-left: 0px;
+#board ul {
+    display: block;
+    padding-left: 0px;
+    margin-left: 7px;
     }
-    h1 {
-        font-size: 30px;
-        font-family: teko;
-        font-weight: 700;
-        margin-bottom: -33px;
+#board h1 {
+    font-size: 30px;
+    font-family: teko;
+    font-weight: 700;
+    margin-bottom: -33px;
+    margin-left: 10px;
     }
-    h2 {
-        font-size: 31px;
-        font-family: teko;
-        font-weight: 700;
-        margin-bottom: 0px;
-    }
+#board h2 {
+    font-size: 31px;
+    font-family: teko;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
     #grid-container {
         background-color: #002639;
         width: 100%;
@@ -475,7 +294,13 @@ inf li {
         width: 50%;
         margin-top: 18px;
     }
-    #ads {
+.gridbox p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+#ads {
         width: 100%;
         height: 340px;
         display: flex;
@@ -611,9 +436,4 @@ footer {
 body {
         overflow-x: scroll;
 }
-}
-@media screen  and (min-width:992px) {
-    .navbar.bg-light{
-       display: none;
-    }
 }
