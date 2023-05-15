@@ -483,7 +483,7 @@ inf li {
 .gridbox {
     color: white;
     background-color: #002639;
-    margin-left: -127px;
+    margin-left: -173px;
     width: 50%;
     margin-top: 18px;
 }
@@ -501,6 +501,14 @@ inf li {
         justify-content: space-evenly;
         flex-direction: column;
         margin-left: 0px;
+    }
+    header {
+        font-family: Teko;
+        font-size: 48px;
+        font-weight: 600;
+        margin-left: 58px;
+        color: black;
+        margin-bottom: -42px;
     }
 .flex-container {
         display: flex;
@@ -595,7 +603,8 @@ footer {
     font-family: Teko;
     font-size: 22px;
     font-weight: 600;
-    margin-left: 5px;
+    margin-left: 11px;
+    margin-top: 10px;
 }
 #flexbox {
         display: flex;
